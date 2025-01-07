@@ -1,0 +1,115 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: beige;
+    color: #333;
+}
+
+/* Course player container */
+.course-player {
+    max-width:1300px;
+	height: 98%;
+	margin-left: 100px;
+	margin-top: -4px;
+    padding: 10px;
+    background: #d1d1d1;
+    border-radius: 8px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* User container */
+.user-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-container .back-btn {
+    background-color: #d34040;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.user-container .back-btn:hover {
+    background-color: #a04545;
+}
+
+.user-container .user-info {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Video container */
+.video-container {
+    text-align: center;
+}
+
+.video-container h2 {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: -50px;
+    color: #2f2f98;
+	text-shadow: 2px 2px 2px  #979292;
+}
+
+#player {
+    width: 100%;
+    height: 620px;
+    background: #000;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/* Progress bar container */
+.progress-container {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.progress-container label {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #555;
+}
+
+#progress {
+    width: 80%;
+    height: 16px;
+    border: none;
+    background: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#progress::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 8px;
+}
+
+#progress::-webkit-progress-value {
+    background-color: #4CAF50;
+    border-radius: 8px;
+}
+
+#progress::-moz-progress-bar {
+    background-color: #4CAF50;
+    border-radius: 8px;
+}
+
+#progress-text {
+    font-size: 14px;
+    color: #444;
+    margin-left: 10px;
+    vertical-align: middle;
+}

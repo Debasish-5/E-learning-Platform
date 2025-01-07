@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: beige;
+}
+.course-details {
+    padding: 10px;
+	width: 99.2%;
+	height: 100%;
+	min-height: 710px;
+	min-width: 630px;
+    font-family: Arial, sans-serif;
+}
+.user-container{
+	margin-top: -9.5px;
+	margin-left: -9px;
+	padding: 8px 16px;
+	align-items: center;
+	background-color: rgb(221, 221, 221);
+	border-radius:5px ;
+	box-shadow: 2px 2px 5px #7d8685 ;
+	
+}
+.back-btn {
+    background-color: #ff0066;
+    color: #fff;
+    border: none;
+    padding: 6px 20px;
+	margin-left: -10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.user-info {
+    float: right;
+    font-weight: bold;
+}
+
+.title-container{
+	background: linear-gradient(115deg, #0068ca, #bde6ff);
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	box-shadow: 2px 2px 5px #000000 ;
+	margin-top: 10px;
+	margin-left: -7px;
+	margin-right: 4px;
+    font-size: 2.5rem;
+	padding: 12px 16px;
+	text-align: center;
+    color: #fff;
+}
+
+.details-grid {
+	background-color: rgb(245, 247, 247);
+    display: flex;
+    justify-content: space-between;
+	margin-top: 25px;
+	box-shadow: 2px 2px 5px #550063 ;
+	border-radius: 10px;
+	margin-left: 40px;
+	width: 1400px;
+	height: 500px;
+    bottom: 80px;
+	padding: 10px 20px;
+}
+
+.description {
+    width: 45%;
+	margin-right: 40px;
+	justify-content: space-between;
+}
+.description h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+.paragraph-spacing {
+	line-height: 2;
+	margin-bottom: 15px;
+}
+.course-card {
+    width: 40%;
+    border-radius: 5px;
+    text-align: center;
+	margin-top: 20px;
+}
+
+.course-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+	border: 2px solid #000000;
+}
+
+.btn {
+    background-color: #606562;
+    color: #fff;
+    padding: 12px 25px;
+    margin: 10px 10px;
+	font-size: 15px;
+	font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn.green {
+    background-color: #4af98d;
+}
+.btn.green:hover{
+	background-color: #0cd051;
+}

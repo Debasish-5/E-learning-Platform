@@ -1,0 +1,80 @@
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url(img/rb_818.png) no-repeat left, linear-gradient(135deg, #B0FCE8, #fc4570);
+            background-size: 800px, cover;
+        }
+        .container {
+            width: 420px;
+            height:auto;
+            background: transparent;
+            border-radius: 10px;
+            border: 2px solid #000;
+            box-shadow: 2px 2px 4px rgb(0, 0, 0);
+            overflow: hidden;
+            margin-left: auto; /* Push the container to the right */
+            margin-right: 200px; /* Add space between the container and the edge of the screen */
+        }
+        .tabs {
+            display: flex;
+            justify-content: space-around;
+            background: #d6e9ff;
+            color: white;
+        }
+        .tabs button {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-weight: bold;
+            color: #fff;
+        }
+        .tabs button.active {
+            background: #4894ff;
+        }
+        .form-container {
+            padding: 20px;
+        }
+        .form-container.hidden {
+            display: none;
+        }
+        .input-group {
+            margin-bottom: 15px;
+            margin-right: 10px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .message {
+            margin-bottom: 15px;
+            color: red;
+        }
+        button.submit {
+            width: 50%;
+            padding: 10px;
+            margin-left: 100px;
+            background: #53ff72;
+            border: none;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button.submit:hover {
+            background: #01f52a;
+        }

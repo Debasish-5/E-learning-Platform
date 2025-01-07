@@ -1,0 +1,82 @@
+.profile-container {
+	display: flex;
+	gap: 20px;
+	background:linear-gradient(125deg,rgb(114, 114, 254),rgb(211, 211, 255));
+	align-items: flex-start;
+	border-radius: 10px;
+	box-shadow: 4px 4px 6px rgb(0, 0, 0);
+	overflow: hidden;
+	height: 620px;
+	width: 1200px;
+	padding: 40px;
+	margin: auto;
+}
+
+.profile-card img {
+	width: 350px;
+	height: 350px;
+	border-radius: 5%;
+	object-fit: cover;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+
+.profile-card {
+	text-align: center;
+}
+
+.profile-card form {
+	margin-top: 30px;
+}
+.profile-card input {
+	padding: 10px 13px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.profile-card button{
+	border-radius: 5px;
+	padding: 10px 10px;
+	color: aliceblue;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 12px;
+	background-color: rgb(48, 79, 255);
+}
+.user-info{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 80px;
+	margin-left: 110px;
+}
+
+.user-info input {
+	display: block;
+	width: 600px;;
+	border-radius: 10px;
+	margin: 10px 0;
+	background-color: rgb(182, 255, 224);
+	font-size: 13px;
+	padding: 12px;
+}
+
+.user-info button {
+	margin: 10px 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+.user-info #btn1{
+	color: aliceblue;
+	font-size: 14px;
+	font-weight: bold;
+	
+	border-radius: 10px;
+	background-color:rgba(38, 255, 78, 0.99);
+}
+.user-info #btn2{
+	color: aliceblue;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 10px;
+	margin-left: 325px;
+	background: red;
+}
